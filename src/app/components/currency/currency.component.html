@@ -1,0 +1,16 @@
+<div class="title">CURRENCY EXCHANGE</div>
+<div class="converter">
+  <div class="form">
+    <select class="select" name="leftselect" (change)="handleInput($event)">
+      <option *ngFor="let currency of usedCurrencies" [text]="currency.unit" [value]="currency.rate"></option>
+    </select>
+    <input class="input" type="number" name='leftinput' (input)="handleInput($event)" [value]="leftvalue" autofocus>
+  </div>
+  <div class="equal">=</div>
+  <div class="form">
+    <input class="input" type="number" name='rightinput' (input)="handleInput($event)" [value]="rightvalue">
+    <select class="select" name="rightselect" (change)="handleInput($event)">
+      <option *ngFor="let currency of usedCurrencies" [text]="currency.unit" [value]="currency.rate"></option>
+    </select>
+  </div>
+</div>
