@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.0.0",
-  "homepage": "https://oksana-kyryienko.github.io/angular_routing_fillter_add_item/",
+  "homepage": "https://github.com/oksana-kyryienko/currency_converter_angular_tt/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -28,6 +28,7 @@
     "@angular/cli": "~15.1.4",
     "@angular/compiler-cli": "^15.1.0",
     "@types/jasmine": "~4.3.0",
+    "angular-cli-ghpages": "^1.0.5",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
