@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.0.0",
+  "homepage": "https://oksana-kyryienko.github.io/angular_routing_fillter_add_item/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
